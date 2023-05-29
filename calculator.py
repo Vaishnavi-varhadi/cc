@@ -31,7 +31,7 @@ app = Flask(__name__)
 @app.route("/")
 def hello():
 
-    return "a(10)+b(2)=12\na(10)-b(2)=8\na(10)*b(2)=20\na(10)/b(2)=5"
+    return "a(10)+b(2)=12\n a(10)-b(2)=8\n a(10)*b(2)=20\n a(10)/b(2)=5"
 
 
 if __name__ == "__main__":
